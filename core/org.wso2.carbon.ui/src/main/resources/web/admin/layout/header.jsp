@@ -23,6 +23,8 @@
 <%@ page import="org.wso2.carbon.utils.multitenancy.MultitenantConstants" %>
 <%@ page import="org.wso2.carbon.utils.CarbonUtils" %>
 
+<jsp:include page="analytics.jsp"/>
+
 <%
     String userGuideURL = (String) config.getServletContext().getAttribute(CarbonConstants.PRODUCT_XML_WSO2CARBON +
                                                                            CarbonConstants.PRODUCT_XML_USERGUIDE);
